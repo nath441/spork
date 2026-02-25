@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/file_encryption.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.split_withdrawal_wallet]
+path = 'contracts/split_withdrawal_wallet.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
